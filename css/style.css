@@ -12,9 +12,33 @@ body {
     width: 175px;
 }
 
+h1 {
+    color: white;
+    font-size: 20px;
+    margin-left: 300px;
+}
+
+p {
+    color: white;
+    font-size: 12px;
+    line-height: 1.6;
+    width: 50%;
+    margin-left: 300px;
+}
+
 .chart {
     text-align: center;
     margin-left: 5%;
     margin-right: 5%;
     padding: 1%;
+}
+
+#d3-container {
+    /* margin-top: 200px; */
+    margin-left: -200px;
+}
+
+#d3-legends {
+    margin-top: -850px;
+    margin-right: -1000px;
 }
